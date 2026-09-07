@@ -1,0 +1,274 @@
+.map-container {
+  background-image: url(../assets/map-container.png);
+  /* margin-top: 100px; */
+  background-size: contain;
+  background-repeat: no-repeat;
+  /* position: absolute; */
+  /* left: 50%; */
+  /* top: 50%; */
+  /* transform: translate(-50%); */
+
+  & #map {
+    width: 77%;
+    height: 77%;
+    margin-left: 11.4%;
+    margin-top: 8%;
+  }
+  & .game-container {
+    width: 100%;
+    height: 100%;
+    /* background-color: rgb(68, 65, 65); */
+
+    & * {
+      position: fixed;
+      /* position: absolute; */
+      /* top: 0;
+        left: 0; */
+    } 
+    & .game-player { 
+      /* transition: var(--moving-transition); */
+      z-index: 2;
+      /*?---------------*/
+      &.player-blue-down {
+        /* background: url(../assets/P1.png); */
+        background: url(../assets/blue-spriteSheet-front.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+
+      &.player-blue-up {
+        /* background: url(../assets/P1.png); */
+        background: url(../assets/blue-spriteSheet-back.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+
+      &.player-blue-left {
+        /* background: url(../assets/P1.png); */
+        background: url(../assets/blue-spriteSheet-side.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+
+      &.player-blue-right {
+        /* background: url(../assets/P1.png); */
+        background: url(../assets/blue-spriteSheet-right.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      /*?---------------*/
+      /*----------------*/
+      &.player-white-down {
+        /* background: url(../assets/P2.png); */
+        background: url(../assets/white-spriteSheet-front.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      &.player-white-up {
+        /* background: url(../assets/P2.png); */
+        background: url(../assets/white-spriteSheet-back.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      &.player-white-left {
+        /* background: url(../assets/P2.png); */
+        background: url(../assets/white-spriteSheet-side.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      &.player-white-right {
+        /* background: url(../assets/P2.png); */
+        background: url(../assets/white-spriteSheet-right.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      /*----------------*/
+      /**---------------*/
+      &.player-green-down {
+        /* background: url(../assets/P3.png); */
+        background: url(../assets/green-spriteSheet-front.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      &.player-green-up {
+        /* background: url(../assets/P3.png); */
+        background: url(../assets/green-spriteSheet-back.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      &.player-green-left {
+        /* background: url(../assets/P3.png); */
+        background: url(../assets/green-spriteSheet-side.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      &.player-green-right {
+        /* background: url(../assets/P3.png); */
+        background: url(../assets/green-spriteSheet-right.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      /**---------------*/
+      /*!---------------*/
+      &.player-red-down {
+        /* background: url(../assets/P4.png); */
+        background: url(../assets/red-spriteSheet-front.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      &.player-red-up {
+        /* background: url(../assets/P4.png); */
+        background: url(../assets/red-spriteSheet-back.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      &.player-red-left {
+        /* background: url(../assets/P4.png); */
+        background: url(../assets/red-spriteSheet-side.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      &.player-red-right {
+        /* background: url(../assets/P4.png); */
+        background: url(../assets/red-spriteSheet-right.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      /*!---------------*/
+    }
+    & .game-wall {
+      background-color: rgba(77, 28, 0, 0.808);
+      background-image: url(../assets/brick1.png);
+      /* background-size: contain; */
+      /* background-repeat: no-repeat; */
+      /* transition: var(--moving-transition); */
+    }
+    & .game-block {
+      background: url(../assets/breakablebrick.png);
+      background-size: contain;
+      /* background-repeat: no-repeat; */
+      transition: var(--moving-transition);
+    }
+    & .game-bombe {
+      background: url(../assets/bomb-spriteSheet.png);
+      background-size: cover;
+      /* background-repeat: no-repeat; */
+      /* transition: var(--moving-transition); */
+    }
+    & .game-bonus-bombe {
+      background: url(../assets/bonusbombs.png);
+      background-size: contain;
+      background-repeat: no-repeat;
+      transition: var(--moving-transition);
+    }
+    & .game-bonus-speed {
+      background: url(../assets/bonuspeed.png);
+      background-size: contain;
+      background-repeat: no-repeat;
+      transition: var(--moving-transition);
+    }
+    .game-bonus-flame {
+      background: url(../assets/bonusflames.png);
+      background-size: contain;
+      background-repeat: no-repeat;
+      transition: var(--moving-transition);
+    }
+  }
+}
+
+#container3 {
+  width: 70%;
+  height: 80vh;
+  background-color: #008200;
+  margin: 2% 15%;
+  display: grid;
+  grid-template-columns: 30% 70%;
+  outline: 10px ridge rgba(255, 239, 12, 0.822);
+  padding: 1% 0;
+}
+
+#gameElement {
+  display: flex;
+  grid-column: 2;
+  justify-self: center;
+  align-self: center;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#instruction-element {
+  width: 100%;
+  height: 100%;
+  background-image: url("/frontend/public/assets/instruction.svg");
+  background-size: 105% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  grid-row: 1;
+}
+
+.impact {
+  animation: impact 1s 250ms ease-in-out;
+}
+
+#game-over-page {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(5px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+#game-over-box {
+  background-color: #fff3;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  color: aliceblue;
+}
+
+.win-image {
+  position: inset;
+  width: 100px;
+  height: 100px;
+  margin: auto;
+}
+
+#winner-title {
+  font-family: "game-police", "Franklin Gothic Medium", "Arial Narrow", Arial,
+    sans-serif;
+}
+
+#go-back {
+  padding: 10px 20px;
+  margin-top: 20px;
+  background-color: #8a4700;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "game-police", "Franklin Gothic Medium", "Arial Narrow", Arial,
+    sans-serif;
+}
+@keyframes impact {
+  0% {
+    opacity: 0.2;
+  }
+  25% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 1;
+  }
+}

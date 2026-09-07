@@ -1,0 +1,6 @@
+:root {
+    --moving-transition : 50ms; /*Player mooving duration */
+    --player-explosition-transition : 1000ms; /*Player mooving duration */
+    --bomb-explosition-transition : 1000ms; /*Player mooving duration */
+    --wall-explosition-transition : 1000ms; /*Player mooving duration */
+}

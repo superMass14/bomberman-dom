@@ -1,0 +1,415 @@
+/********************? blue player animation *************************/
+
+.move-blue-to-left {
+  background-image: url("/frontend/public/assets/blue-spriteSheet-side.png");
+  background-position: -5% 25%;
+  background-repeat: no-repeat;
+  background-size: 300% 100%;
+  animation: animateSprite 300ms step-end infinite;
+}
+
+.move-blue-to-front {
+  background-image: url("/frontend/public/assets/blue-spriteSheet-front.png");
+  background-position: -5% 25%;
+  background-repeat: no-repeat;
+  background-size: 300% 100%;
+  animation: animateSprite 320ms step-end infinite;
+}
+
+.move-blue-to-back {
+  background-image: url("/frontend/public/assets/blue-spriteSheet-back.png");
+  background-position: -5% 25%;
+  background-repeat: no-repeat;
+  background-size: 300% 100%;
+  animation: animateSprite 350ms step-end infinite;
+}
+/*death animation after losing 3 lives*/
+.blue-death {
+  background-image: url("/frontend/public/assets/blue-spriteSheet-death.png");
+  background-position: -25% 25%;
+  background-repeat: no-repeat;
+  background-size: 700% 100%;
+  animation: death 800ms step-end;
+}
+
+.move-blue-to-right {
+  background-image: url("/frontend/public/assets/blue-spriteSheet-right.png");
+  background-position: -5% 25%;
+  background-repeat: no-repeat;
+  background-size: 300% 100%;
+  /* transform: scaleX(-100%); */
+  animation: animateSprite 300ms step-end infinite;
+}
+/********************? end of blue player animation *************************/
+/*-************************************************************************/
+/*-******************* white player animation *************************/
+.move-white-to-left {
+  background-image: url("/frontend/public/assets/white-spriteSheet-side.png");
+  background-position: -5% 25%;
+  background-repeat: no-repeat;
+  background-size: 300% 100%;
+  animation: animateSprite 300ms step-end infinite;
+}
+
+.move-white-to-front {
+  background-image: url("/frontend/public/assets/white-spriteSheet-front.png");
+  background-position: -5% 25%;
+  background-repeat: no-repeat;
+  background-size: 300% 100%;
+  animation: animateSprite 320ms step-end infinite;
+}
+
+.move-white-to-back {
+  background-image: url("/frontend/public/assets/white-spriteSheet-back.png");
+  background-position: -5% 25%;
+  background-repeat: no-repeat;
+  background-size: 300% 100%;
+  animation: animateSprite 350ms step-end infinite;
+}
+
+/*death animation after losing 3 lives*/
+.white-death {
+  background-image: url("/frontend/public/assets/white-spriteSheet-death.png");
+  background-position: -25% 25%;
+  background-repeat: no-repeat;
+  background-size: 700% 100%;
+  animation: death 800ms step-end;
+}
+
+.move-white-to-right {
+  background-image: url("/frontend/public/assets/white-spriteSheet-right.png");
+  background-position: -5% 25%;
+  background-repeat: no-repeat;
+  background-size: 300% 100%;
+  /* transform: scaleX(-100%); */
+  animation: animateSprite 300ms step-end infinite;
+}
+/*-******************* end of white player animation *************************/
+/*-*****************************************************************/
+/********************! red player animation *************************/
+.move-red-to-left {
+  background-image: url("/frontend/public/assets/red-spriteSheet-side.png");
+  background-position: -5% 25%;
+  background-repeat: no-repeat;
+  background-size: 300% 100%;
+  animation: animateSprite 300ms step-end infinite;
+}
+
+.move-red-to-front {
+  background-image: url("/frontend/public/assets/red-spriteSheet-front.png");
+  background-position: -5% 25%;
+  background-repeat: no-repeat;
+  background-size: 300% 100%;
+  animation: animateSprite 320ms step-end infinite;
+}
+
+.move-red-to-back {
+  background-image: url("/frontend/public/assets/red-spriteSheet-back.png");
+  background-position: -5% 25%;
+  background-repeat: no-repeat;
+  background-size: 300% 100%;
+  animation: animateSprite 350ms step-end infinite;
+}
+
+/*death animation after losing 3 lives*/
+.red-death {
+  background-image: url("/frontend/public/assets/red-spriteSheet-death.png");
+  background-position: -25% 25%;
+  background-repeat: no-repeat;
+  background-size: 700% 100%;
+  animation: death 800ms step-end;
+}
+
+.move-red-to-right {
+  background-image: url("/frontend/public/assets/red-spriteSheet-right.png");
+  background-position: -5% 25%;
+  background-repeat: no-repeat;
+  background-size: 300% 100%;
+  /* transform: scaleX(-100%); */
+  animation: animateSprite 300ms step-end infinite;
+}
+/********************! end of red player animation *************************/
+/*-***********************************************************************/
+/******************** green player animation *************************/
+.move-green-to-left {
+  background-image: url("/frontend/public/assets/green-spriteSheet-side.png");
+  background-position: -5% 25%;
+  background-repeat: no-repeat;
+  background-size: 300% 100%;
+  animation: animateSprite 300ms step-end infinite;
+}
+
+.move-green-to-front {
+  background-image: url("/frontend/public/assets/green-spriteSheet-front.png");
+  background-position: -5% 25%;
+  background-repeat: no-repeat;
+  background-size: 300% 100%;
+  animation: animateSprite 320ms step-end infinite;
+}
+
+.move-green-to-back {
+  background-image: url("/frontend/public/assets/green-spriteSheet-back.png");
+  background-position: -5% 25%;
+  background-repeat: no-repeat;
+  background-size: 300% 100%;
+  animation: animateSprite 350ms step-end infinite;
+}
+
+/*death animation after losing 3 lives*/
+.green-death {
+  background-image: url("/frontend/public/assets/green-spriteSheet-death.png");
+  background-position: -25% 25%;
+  background-repeat: no-repeat;
+  background-size: 700% 100%;
+  animation: death 800ms step-end;
+}
+
+.move-green-to-right {
+  background-image: url("/frontend/public/assets/green-spriteSheet-right.png");
+  background-position: -5% 25%;
+  background-repeat: no-repeat;
+  background-size: 300% 100%;
+  /* transform: scaleX(-100%); */
+  animation: animateSprite 300ms step-end infinite;
+}
+/******************** end of green player animation *************************/
+/*-*************************************************************************/
+/*-*******************  bomb ****************************/
+
+/*explosion animation*/
+.bomb-explode {
+  background-image: url("/frontend/public/assets/bomb-spriteSheet.png");
+  background-position: 120% 25%;
+  background-repeat: no-repeat;
+  background-size: 1000% 110%;
+  animation: bomb 800ms step-end;
+}
+
+.brick-explosion {
+  background-image: url("/frontend/public/assets/brickExplosion-spriteSheet.png");
+  background-position: 115% 100%;
+  background-repeat: no-repeat;
+  background-size: 1030% 100%;
+  animation: brickExplode 500ms 250ms step-end;
+}
+
+/*drop bomb animation*/
+.bomb-exploding {
+  background-image: url("/frontend/public/assets/bomb-spriteSheet.png");
+  background-position: 0% 25%;
+  background-repeat: no-repeat;
+  background-size: 1000% 110%;
+  animation: exploding 500ms step-end infinite;
+}
+/*-******************* end of bomb ****************************/
+/*-***********************************************************/
+/*-*******************  explodeX ****************************/
+.fire-explode-x {
+  background-image: url("/frontend/public/assets/fireRange-spriteSheet.png");
+  background-position: 0% 50%;
+  background-repeat: no-repeat;
+  background-size: 400% 0%;
+  animation: fireExplode 500ms 250ms step-end;
+}
+
+.fire-end-explode-x-right {
+  background-image: url("/frontend/public/assets/1fireRange-spriteSheet.png");
+  background-position: 0% 50%;
+  background-repeat: no-repeat;
+  background-size: 500% 0%;
+  animation: fireExplode 500ms 250ms step-end;
+}
+
+.fire-end-explode-x-left {
+  background-image: url("/frontend/public/assets/1fireRange-spriteSheet.png");
+  background-position: 0% 50%;
+  background-repeat: no-repeat;
+  background-size: 500% 0%;
+  transform: scaleX(-100%);
+  animation: fireExplode 500ms 250ms step-end;
+}
+/*-*******************  end of explodeX ****************************/
+/*-*************************************************************/
+/*-*******************  explodeY ****************************/
+.fire-explode-y {
+  background-image: url("/frontend/public/assets/fireRangeY-spriteSheet.png");
+  background-position: 100% -25%;
+  background-repeat: no-repeat;
+  background-size: 100% 500%;
+  animation: fireExplodeY 500ms 250ms step-end;
+}
+
+.fire-end-explode-y-up {
+  background-image: url("/frontend/public/assets/1fireRangeY-spriteSheet.png");
+  background-position: 100% -25%;
+  background-repeat: no-repeat;
+  background-size: 100% 500%;
+  transform: scaleX(-100%);
+  animation: fireExplodeY 500ms 250ms step-end;
+}
+
+.fire-end-explode-y-down {
+  background-image: url("/frontend/public/assets/1fireRangeY-spriteSheet.png");
+  background-position: 100% -25%;
+  background-repeat: no-repeat;
+  background-size: 100% 500%;
+  transform: scaleY(-100%);
+  animation: fireExplodeY 500ms 250ms step-end;
+}
+/*-*******************  end of explodeY ****************************/
+/*-****************************************************************/
+
+@keyframes exploding {
+  0% {
+    background-position: 0% 25%;
+  }
+  50% {
+    background-position: 17% 25%;
+  }
+  100% {
+    background-position: 33% 25%;
+  }
+}
+
+@keyframes brickExplode {
+  0% {
+    background-position: 0% 100%;
+  }
+
+  12.5% {
+    background-position: 17% 50%;
+  }
+
+  25% {
+    background-position: 34% 50%;
+  }
+
+  37.5% {
+    background-position: 50% 50%;
+  }
+
+  50% {
+    background-position: 67% 50%;
+  }
+
+  67.5% {
+    background-position: 84% 50%;
+  }
+
+  75% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 115% 50%;
+  }
+}
+
+@keyframes fireExplodeY {
+  0% {
+    background-position: 50% 68%;
+    background-size: 10% 500%;
+  }
+  25% {
+    background-position: 100% 68%;
+    background-size: 100% 500%;
+  }
+  50% {
+    background-position: 100% 38%;
+  }
+  75% {
+    background-position: 100% 5%;
+  }
+  100% {
+    background-position: 100% -25%;
+  }
+}
+
+@keyframes fireExplode {
+  0% {
+    background-position: 0% 50%;
+    background-size: 500% 5%;
+  }
+  25% {
+    background-position: 33% 50%;
+    background-size: 500% 50%;
+  }
+  50% {
+    background-position: 66% 50%;
+  }
+  75% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 140% 50%;
+  }
+}
+
+@keyframes bomb {
+  0% {
+    background-position: 0% 25%;
+  }
+  12.5% {
+    background-position: 17% 25%;
+  }
+  25% {
+    background-position: 33% 25%;
+  }
+  37.5% {
+    background-position: 51% 25%;
+  }
+  50% {
+    background-position: 67% 25%;
+  }
+  62.5% {
+    background-position: 84% 25%;
+  }
+  75% {
+    background-position: 100% 25%;
+  }
+  100% {
+    background-position: 120% 25%;
+  }
+}
+
+@keyframes death {
+  0% {
+    background-position: -5% 25%;
+  }
+  12.5% {
+    background-position: 12% 25%;
+  }
+  25% {
+    background-position: 26% 25%;
+  }
+  37.5% {
+    background-position: 42% 25%;
+  }
+  50% {
+    background-position: 56% 25%;
+  }
+  62.5% {
+    background-position: 70% 25%;
+  }
+  75% {
+    background-position: 85% 25%;
+  }
+  87.5% {
+    background-position: 101% 25%;
+  }
+  100% {
+    background-position: 120% 25%;
+  }
+}
+
+@keyframes animateSprite {
+  0% {
+    background-position: -5% 25%;
+  }
+  50% {
+    background-position: 45% 25%;
+  }
+  100% {
+    background-position: 100% 25%;
+  }
+}
